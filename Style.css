@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+}
+
+#maindiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Reviews {
+    background-color: rgba(255, 0, 0, 0.992);
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fortnite{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+    color: black;
+    font-size: 35px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    background-color: #00ffffc1;
+    position: sticky;
+    top: 0;
+
+}
+
+.navBar button {
+    height: 45px;
+    width: 90px;
+    background-color: aquamarine;
+    color: black;
+    transition: .5s;
+}
+
+.navBar button:hover {
+    animation: shake 2s linear infinite;
+    background-color: white;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.imgs img {
+    width: 25vw;
+    height: 25vw;
+}
+
+
+h2 {
+    font-size: 5vw;
+}
+
+
+.indvGame {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.indvGame p {
+    text-align: center;
+    width: 60%;
+    font-size: 2vmax;
+}
+
+.ipadCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ipadSect {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ipadSect img {
+    height: 25vw;
+    width: 25vw;
+}
+
+.ipadSect h4 {
+    width: 50%;
+    text-align: center;
+    font-size: 2vmax;
+    margin: 10px;
+}
+
+.ipadSect h3 {
+    font-size: 3vmax;
+    margin: 10px;
+}
+
+
+.computers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.compRow {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.compCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.compCol h3 {
+    font-size: 3vmax;
+    margin: 10px;
+}
+
+.textCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    font-size: 2vmax;
+}
+
+.compCol img {
+    height: 25vw;
+    width: 35vw;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    10% {
+        transform: translateY(-5px) rotate(0deg);
+    }
+    20% {
+        transform: translateY(-5px) rotate(20deg);
+    }
+    30% {
+        transform: translateY(-5px) rotate(-20deg);
+    }
+    40% {
+        transform: translateY(-5px) rotate(10deg);
+    }
+    50% {
+        transform: translateY(-5px) rotate(-10deg);
+    }
+    60% {
+        transform: translateY(-5px) rotate(0deg);
+    }
+    70% {
+        transform: translateY(0px) rotate(0deg);
+    }
+
+}
